@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 60px;
+    background-color: var(--bgSoft);
+    color: var(--white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.title{
+    color: var(--textsoft);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
